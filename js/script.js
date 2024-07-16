@@ -6,7 +6,9 @@ headerToggle.addEventListener('click', (e) => {
 
     if(e.currentTarget.classList.contains('header__toggle--on')) {
         headerNav.classList.add('header__nav--active');
+        document.body.style.overflow = 'hidden';
     } else {
         headerNav.classList.remove('header__nav--active');
+        document.body.style.overflow = 'auto';
     }
 });
