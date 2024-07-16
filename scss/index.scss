@@ -238,7 +238,7 @@ body {
             margin-top: 1.25em;
             letter-spacing: 0.25px;
             line-height: 1.8;
-            color: $dark-gray;
+            color: $very-dark-gray;
         }
     }
 }
@@ -486,8 +486,10 @@ body {
     }
 
     .section--hero {
+        max-height: 650px;
+
         &__title {
-            font-size: 3.6em;
+            font-size: 4em;
             padding-right: 2em;
         }
     }
@@ -660,8 +662,8 @@ body {
             width: 49%;
             position: absolute;
             right: 0;
-            bottom: -3em;
-            padding: 3em; padding-right: 0;
+            bottom: -4em;
+            padding: 5em 0 4em 3.5em;
         }
     }
 
@@ -685,8 +687,8 @@ body {
             width: 49%;
             position: absolute;
             right: 0;
-            bottom: -5em;
-            padding: 5em; padding-right: 0;
+            bottom: -4em;
+            padding-top: 6em; padding-left: 5em;
         }
     }
 

@@ -266,7 +266,7 @@ body {
   margin-top: 1.25em;
   letter-spacing: 0.25px;
   line-height: 1.8;
-  color: hsl(0, 0%, 55%);
+  color: hsl(0, 0%, 41%);
 }
 
 /*
@@ -474,8 +474,11 @@ body {
   .header__nav__bg {
     display: none;
   }
+  .section--hero {
+    max-height: 650px;
+  }
   .section--hero__title {
-    font-size: 3.6em;
+    font-size: 4em;
     padding-right: 2em;
   }
   .section--intro {
@@ -624,9 +627,8 @@ body {
     width: 49%;
     position: absolute;
     right: 0;
-    bottom: -3em;
-    padding: 3em;
-    padding-right: 0;
+    bottom: -4em;
+    padding: 5em 0 4em 3.5em;
   }
   .section--creation {
     margin-top: 10em;
@@ -643,9 +645,9 @@ body {
     width: 49%;
     position: absolute;
     right: 0;
-    bottom: -5em;
-    padding: 5em;
-    padding-right: 0;
+    bottom: -4em;
+    padding-top: 6em;
+    padding-left: 5em;
   }
   .section--creation__inner {
     margin-bottom: 10em;
